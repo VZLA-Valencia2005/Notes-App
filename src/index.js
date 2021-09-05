@@ -6,6 +6,8 @@ const session = require("express-session");
 const flash = require("connect-flash");
 const app = express();
 const passport = require("passport");
+const dotenv = require('dotenv').config();
+
 require("./database");
 require("./config/passport");
 // Settings
